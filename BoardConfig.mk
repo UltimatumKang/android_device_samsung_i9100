@@ -27,6 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
 TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/i9100g/kernel
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
 EXYNOS4210_ENHANCEMENTS := true
